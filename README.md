@@ -24,7 +24,27 @@ Or install it yourself as:
 
 ## How to use
 
-TODO
+```
+class Example
+  attr_reader :count
+
+  def foo(count)
+    @count = count
+  end
+
+  def bar
+    (1..10000).each { |i| i }
+  end
+end
+
+Tackle.decorate('Example', 'foo') do
+  puts "META: I was called with #{@count}"
+end
+
+Tackle.time('Example', 'bar') do |t|
+  puts "Time elapsed #{t * 1000} milliseconds"
+end
+```
 
 ## Contributing
 
