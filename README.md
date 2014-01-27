@@ -6,7 +6,6 @@ Ruby gem for instrumenting your code
 [![Gem Version](https://badge.fury.io/rb/tackle.png)](http://badge.fury.io/rb/tackle)
 [![Build Status](https://secure.travis-ci.org/tylermercier/tackle.png)](http://travis-ci.org/tylermercier/tackle)
 [![Code Climate](https://codeclimate.com/github/tylermercier/tackle.png)](https://codeclimate.com/github/tylermercier/tackle)
-[![Coverage Status](https://coveralls.io/repos/tylermercier/tackle/badge.png)](https://coveralls.io/r/tylermercier/tackle)
 
 ## Installation
 
